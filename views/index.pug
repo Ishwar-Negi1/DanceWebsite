@@ -1,0 +1,64 @@
+//- index.pug
+doctype html
+html
+  head
+    title Ishwar Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src = "/static/images/logo1.png")
+                | HDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") classes Info]
+            li #[a(href="/") Contact us]
+    
+    section#introsection
+        div Welcome to Ishwar Dance Academy
+        div.small Eat sleep Dance and repeat
+
+
+    section#missionsection
+        h2 Our mission
+        div.card
+            h3 Dance perfection
+            div.cardbox
+                div.cardimg
+                    img(src = "/static/images/logo2.png")
+            div.card-content
+                p this is the best dance academy of uttarakhand
+        
+        div.card
+            h3 Expert teaching
+            div.cardbox
+                div.cardimg
+                    img(src = "/static/images/logo1.png")
+            div.card-content
+                p this is the best dance academy of uttarakhand
+        div.card
+            h3 dance the way you like
+            div.cardbox
+                div.cardimg
+                    img(src = "/static/images/logo2.png")
+            div.card-content
+                p this is the best dance academy of uttarakhand
+
+    section#sponsorsection
+        h2 Our sponsor
+        div#sponsors
+            img(src="/static/images/1.png",alt = "sposnsor image" class="spimage")
+            img(src="/static/images/2.png",alt = "sposnsor image" class="spimage")
+            img(src="/static/images/3.png",alt = "sposnsor image" class="spimage")
+            img(src="/static/images/4.png",alt = "sposnsor image" class="spimage")
+            
+           
+
+    footer#footer
+        | Copyright © 2020 IshwarDanceAcademy | All right reserved
+    
+    script
+      include ../static/index.js

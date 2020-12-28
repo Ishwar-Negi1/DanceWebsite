@@ -1,0 +1,49 @@
+//- page-a.pug
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+block style
+    style
+      include ../static/style.css
+
+block content
+    section#introsection
+        div Welcome to Ishwar Dance Academy
+        div.small Eat sleep Dance and repeat
+
+
+    section#missionsection
+        h2 Our mission
+        div.card
+            h3 Dance perfection
+            div.cardbox
+                div.cardimg
+                    img(src = "/static/images/logo2.png")
+            div.card-content
+                p this is the best dance academy of uttarakhand
+        
+        div.card
+            h3 Expert teaching
+            div.cardbox
+                div.cardimg
+                    img(src = "/static/images/logo1.png")
+            div.card-content
+                p this is the best dance academy of uttarakhand
+        div.card
+            h3 dance the way you like
+            div.cardbox
+                div.cardimg
+                    img(src = "/static/images/logo2.png")
+            div.card-content
+                p this is the best dance academy of uttarakhand
+
+    section#sponsorsection
+        h2 Our sponsor
+        div#sponsors
+            img(src="/static/images/1.png",alt = "sposnsor image" class="spimage")
+            img(src="/static/images/2.png",alt = "sposnsor image" class="spimage")
+            img(src="/static/images/3.png",alt = "sposnsor image" class="spimage")
+            img(src="/static/images/4.png",alt = "sposnsor image" class="spimage")
+            
+    

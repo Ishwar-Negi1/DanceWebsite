@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 25px;
+    font-size: 9px;
+    margin-right: 24px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+
+#navbar {
+    background-color: rgb(14, 13, 13);
+    padding: 13px 4px;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+
+
+}
+
+#navbar li {
+    list-style: none;
+    margin: 12px;
+    
+    }
+
+#navbar li a{
+text-decoration: none;
+padding: 30px 25px;
+color: white;
+font-weight: bold;
+
+}
+#navbar li a:hover{
+    
+    color: black;
+    
+} 
+
+#introsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     color: white;
+    height: 300px;
+    background-color: red;
+    background: url(../static/bg1.jpg)no-repeat center center/cover;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 42px;
+    padding-bottom: 15px;
+
+
+
+}
+#introsection div.small{
+    font-size: 23px;
+    padding: 9px
+}
+#missionsection{
+    height: 300px;
+    width: 67%;
+    margin: auto;
+}
+
+#missionsection h2{
+    font-size: 32px;
+    font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  padding-top: 23px;
+}
+
+
+.card{
+    background-color: #fff9f978;
+    border: 2px solid black;
+    border-radius: 12px;
+    width: 30%;
+    margin: 24px 15px;
+    height: 200px;
+    display: inline-block;
+}
+.card h3{
+    text-align: center;
+    margin: 0px  12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cardbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardimg{
+    height: 90px;
+    padding: 0px 14px;
+}
+.cardimg img{
+    height: inherit;
+    
+}
+.card-content{
+    -webkit-text-stroke-width: thick;
+ padding: 0px 3px;
+
+}
+
+.card-content p{
+
+    font-size: 15px;
+    margin: 13px 18px;
+}
+#sponsorsection{
+    height: 300px;
+    background-color: rgb(250, 63, 16);
+
+}
+#sponsorsection h2{
+    font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  padding-top: 23px;
+  
+
+}
+
+#sponsors{
+    height: 151px;
+    max-width: 892px;
+    margin: 16px auto;
+}
+.spimage{
+    height: 152px;
+    margin: 10px;
+}
+
+#footer{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
